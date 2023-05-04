@@ -490,6 +490,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  width: 800px;
 }
 
 .display-1 {
@@ -676,6 +677,17 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
+.row2 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
@@ -2323,7 +2335,7 @@ textarea.form-control-lg {
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
   pointer-events: none;
   filter: none;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .form-range {
