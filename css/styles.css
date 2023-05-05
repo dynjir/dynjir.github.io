@@ -689,7 +689,7 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
-.row2 {
+.portfolio-row {
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
