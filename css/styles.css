@@ -491,16 +491,12 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  width: 800px;
+  width: 200%;
 }
 
 .lead2 {
   font-size: 1.25rem;
   font-weight: 300;
-  text-align: center;
-}
-
-.lead3{
   text-align: center;
 }
 
