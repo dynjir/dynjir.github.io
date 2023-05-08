@@ -11,6 +11,7 @@
 function sendMail(){
     const serviceID = "service_vqbzrde";
     const templateID = "template_gyzn04g";
+    const publicKey = "FYk6FxZAUnrDvfjm"
     var params = {
         name: document.getElementById("name").value,
         email: document.getElementById("userEmail").value,
@@ -20,7 +21,7 @@ function sendMail(){
     };
 
     emailjs
-        .send(serviceID, templateID, params)
+        .send(serviceID, templateID, params,publicKey)
         .then((res) => {
                 document.getElementById("name").value = "";
                 document.getElementById("userEmail").value = "";
