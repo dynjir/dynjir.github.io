@@ -264,38 +264,42 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <!-- * * Forms Contact Form: USE FORMSUBMIT.CO OR FORMSPREE * *-->
+                        <!-- * * Forms Contact Form: https://dashboard.emailjs.com/admin * *-->
+                        <!-- * * TUTORIAL: https://www.youtube.com/watch?v=5EZsRnJpUNU * *-->
+                        <!-- * * TUTORIAL: https://www.youtube.com/watch?v=NgWGllOjkbs * *-->
+                        <!-- * * npm install emailjs * *-->
+
                         <form id="contactForm">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required"/>
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required/>
                                 <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                <div class="invalid-feedback">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" required/>
                                 <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                <div class="invalid-feedback">An email is required.</div>
+                                <div class="invalid-feedback">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" required/>
                                 <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                <div class="invalid-feedback">A phone number is required.</div>
                             </div>
                             <!-- Subject input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="subject" type="text" placeholder="(blank)" data-sb-validations="required" />
+                                <input class="form-control" id="subject" type="text" placeholder="(blank)" required/>
                                 <label for="name">Subject</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A subject is required.</div>
+                                <div class="invalid-feedback">A subject is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
                                 <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                <div class="invalid-feedback">A message is required.</div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -324,11 +328,11 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <h4 class="text-uppercase mb-4">Contact</h4>
                         <p class="lead2 mb-0">
-                            Jacksonville, FL 32256
+                            j4yseo@gmail.com
                             <br />
-                            (904)-651-9391
+                            Jacksonville, FL 32256
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
