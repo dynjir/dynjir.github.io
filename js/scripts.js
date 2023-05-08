@@ -34,6 +34,33 @@ function sendMail(){
 };
 
 
+
+function sendMail(){
+    const serviceID = "service_vqbzrde";
+    const templateID = "template_gyzn04g";
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        phone: document.getElementById("phone").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+    };
+
+    emailjs
+        .send(serviceID, templateID, params)
+        .then((res) => {
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("phone").value = "";
+                document.getElementById("subject").value = "";
+                document.getElementById("message").value = "";
+                console.log(res);
+                alert("Success!")
+            })
+        .catch((err)=>console.log(err));
+};
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
