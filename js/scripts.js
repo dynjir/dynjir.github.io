@@ -9,12 +9,12 @@
 
 
 function sendMail(){
-    const serviceID = "service_vqbzrde";
-    const templateID = "template_gyzn04g";
-    const publicKey = "FYk6FxZAUnrDvfjm"
+    const serviceID = "service_xhscq2k";
+    const templateID = "template_z8d9wnc";
+    const publicKey = "esUBaI6WH-PbthHDk"
     var params = {
         name: document.getElementById("name").value,
-        email: document.getElementById("userEmail").value,
+        email: document.getElementById("email").value,
         phone: document.getElementById("phone").value,
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
@@ -24,7 +24,7 @@ function sendMail(){
         .send(serviceID, templateID, params,publicKey)
         .then((res) => {
                 document.getElementById("name").value = "";
-                document.getElementById("userEmail").value = "";
+                document.getElementById("email").value = "";
                 document.getElementById("phone").value = "";
                 document.getElementById("subject").value = "";
                 document.getElementById("message").value = "";
