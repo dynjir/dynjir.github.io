@@ -9,9 +9,9 @@
 
 
 function sendMail(){
-    const serviceID = "service_xhscq2k";
-    const templateID = "template_z8d9wnc";
-    const publicKey = "esUBaI6WH-PbthHDk"
+    const serviceID = "service_vqbzrde";
+    const templateID = "template_gyzn04g";
+    const publicKey = "FYk6FxZAUnrDvfjm8";
     var params = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
