@@ -6900,6 +6900,13 @@ textarea.form-control-lg {
   align-self: stretch;
 }
 
+.hstack2 {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  width: 800px;
+}
+
 .vstack {
   display: flex;
   flex: 1 1 auto;
